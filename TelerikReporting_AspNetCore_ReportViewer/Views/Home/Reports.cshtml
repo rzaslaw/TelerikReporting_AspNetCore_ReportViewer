@@ -26,10 +26,10 @@
         $(document).ready(function () {
             $("#reportViewer1")
                 .telerik_ReportViewer({
-                    reportServer: { "url": "http://nbwalzaslaw:83/", "username": "rzaslaw", "password": "052661BD" },
-                    reportSource: { report: "Samples/Product Line Sales.trdp", parameters: {} },
-                    //serviceUrl: "http://localhost/ReportingRestServiceCors/api/Reports/",
-                    //reportSource: { report: "CryptoCurrenciesData.trdp", parameters: {} },
+                    //reportServer: { "url": "http://nbwalzaslaw:83/", "username": "rzaslaw", "password": "052661BD" },
+                    //reportSource: { report: "Samples/Product Line Sales.trdp", parameters: {} },
+                    serviceUrl: "http://localhost/ReportingRestServiceCors/api/Reports/",
+                    reportSource: { report: "Dashboard.trdp", parameters: {} },
                     scale: 1.0,
                     persistSession: false,
                     parametersAreaVisible: true,
